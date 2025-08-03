@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+/* Change Brand Font */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  color: #f3f35e;
+}
+
+/* Make Header Image Responsive */
+/* .back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+} */
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 24px;
+}
+
+a {
+  color: black;
+}
+
+.active {
+  color: white;
+  background-color: #56caee;
+}
+
+a:hover {
+  color: #2cec99;
+}
+
+/* Change Footer Icon Link Color */
+.fi-color {
+  color: #DC3545;
+}
+
+fi-color:hover {
+  color: #ffffff;
+}
+
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+/* Setting Margin for Welcome to OSMS */
+/* .mainHeading {
+  margin-top: 50px;
+} */
+
+
+#second {
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(34, 17, 229), rgb(221, 208, 205),  rgb(34, 17, 229)
+  );
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+
+
+#myh1 {
+  /* background-color: rgb(130, 201, 239); */
+  margin: 0;
+  font-size: 5em;
+  font-family: 'Righteous', cursive;
+  padding: 0;
+  color: #FEE715FF;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);}
+  span  {
+    transform: scale(0.9);
+    display: inline-block;
+  }
+  #myspan1:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+  }
+  #myspan2:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+      infinite alternate;
+  }
+
+
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+
+/* REDUCE FONT SIZE ON MOBILE */
+@media (max-width: 768px) {
+  #myspan1, #myspan2 {
+    font-size: 40px;
+  
+  }
+  #myh1 {
+    display: none; 
+}}
+
+#mbgreeting{
+  display: none;
+}
+/* show on mobile */
+@media (max-width: 768px)  {
+  #mbgreeting{
+    display: block;
+  }
+}
+
+  .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+    .face {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+      .face1 {
+        box-sizing: border-box;
+        padding: 20px;}
+
+        h2 {
+          margin: 0;
+          padding: 0;
+        }
+
+        .java {
+          background-color: #000000;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color:white  
+        }
+
+        .python {
+          background-color: #000000;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color:white  
+        }
+
+        .cSharp {
+          background-color: #000000;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color:white 
+        }
+      
+
+      .face2 {
+        transition: 0.5s;
+      }
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 10em;
+          color: #fff;
+          transition: 0.5s;
+          text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          z-index: 10;
+        }
+     
+
+  .card:hover .face.face2 {
+    height: 60px;
+  }
+    h2 {
+      font-size: 2em;
+    }
+  
+
+  .card:nth-child(1) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #2f3c7e  10%,
+      #FBEAEB 45%,
+      #2f3c7e  90% 
+    );
+   border-radius: 15px;
+  }
+
+  .card:nth-child(2) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #2f3c7e  10%,
+      #FBEAEB 45%,
+      #2f3c7e  90% 
+    );
+   border-radius: 15px;
+  }
+
+  .card:nth-child(3) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #2f3c7e  10%,
+      #FBEAEB 45%,
+      #2f3c7e  90% 
+    );
+  border-radius: 15px;
+  }
+
+#cardbg{
+ 
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.cardbg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#juminfo{
+  background-color:#2f3c7e;
+  color:#FBEAEB
+}
